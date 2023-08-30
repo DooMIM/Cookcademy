@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAAC98D42A9F769E009A6A84 /* CookcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98D32A9F769E009A6A84 /* CookcademyApp.swift */; };
+		FAAC98D62A9F769E009A6A84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98D52A9F769E009A6A84 /* ContentView.swift */; };
+		FAAC98D82A9F76A0009A6A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAC98D72A9F76A0009A6A84 /* Assets.xcassets */; };
+		FAAC98DB2A9F76A0009A6A84 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAAC98DA2A9F76A0009A6A84 /* Preview Assets.xcassets */; };
+		FAAC98E52A9F76A0009A6A84 /* CookcademyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98E42A9F76A0009A6A84 /* CookcademyTests.swift */; };
+		FAAC98EF2A9F76A0009A6A84 /* CookcademyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98EE2A9F76A0009A6A84 /* CookcademyUITests.swift */; };
+		FAAC98F12A9F76A0009A6A84 /* CookcademyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAC98F02A9F76A0009A6A84 /* CookcademyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAAC98E12A9F76A0009A6A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAC98C82A9F769E009A6A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAC98CF2A9F769E009A6A84;
+			remoteInfo = Cookcademy;
+		};
+		FAAC98EB2A9F76A0009A6A84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAAC98C82A9F769E009A6A84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAAC98CF2A9F769E009A6A84;
+			remoteInfo = Cookcademy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAAC98D02A9F769E009A6A84 /* Cookcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cookcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAC98D32A9F769E009A6A84 /* CookcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookcademyApp.swift; sourceTree = "<group>"; };
+		FAAC98D52A9F769E009A6A84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAAC98D72A9F76A0009A6A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAAC98DA2A9F76A0009A6A84 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAAC98E02A9F76A0009A6A84 /* CookcademyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookcademyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAC98E42A9F76A0009A6A84 /* CookcademyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookcademyTests.swift; sourceTree = "<group>"; };
+		FAAC98EA2A9F76A0009A6A84 /* CookcademyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookcademyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAAC98EE2A9F76A0009A6A84 /* CookcademyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookcademyUITests.swift; sourceTree = "<group>"; };
+		FAAC98F02A9F76A0009A6A84 /* CookcademyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookcademyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAAC98CD2A9F769E009A6A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAC98DD2A9F76A0009A6A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAC98E72A9F76A0009A6A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAC98C72A9F769E009A6A84 = {
+			isa = PBXGroup;
+			children = (
+				FAAC98D22A9F769E009A6A84 /* Cookcademy */,
+				FAAC98E32A9F76A0009A6A84 /* CookcademyTests */,
+				FAAC98ED2A9F76A0009A6A84 /* CookcademyUITests */,
+				FAAC98D12A9F769E009A6A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAAC98D12A9F769E009A6A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC98D02A9F769E009A6A84 /* Cookcademy.app */,
+				FAAC98E02A9F76A0009A6A84 /* CookcademyTests.xctest */,
+				FAAC98EA2A9F76A0009A6A84 /* CookcademyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAAC98D22A9F769E009A6A84 /* Cookcademy */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC98D32A9F769E009A6A84 /* CookcademyApp.swift */,
+				FAAC98D52A9F769E009A6A84 /* ContentView.swift */,
+				FAAC98D72A9F76A0009A6A84 /* Assets.xcassets */,
+				FAAC98D92A9F76A0009A6A84 /* Preview Content */,
+			);
+			path = Cookcademy;
+			sourceTree = "<group>";
+		};
+		FAAC98D92A9F76A0009A6A84 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC98DA2A9F76A0009A6A84 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAAC98E32A9F76A0009A6A84 /* CookcademyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC98E42A9F76A0009A6A84 /* CookcademyTests.swift */,
+			);
+			path = CookcademyTests;
+			sourceTree = "<group>";
+		};
+		FAAC98ED2A9F76A0009A6A84 /* CookcademyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAAC98EE2A9F76A0009A6A84 /* CookcademyUITests.swift */,
+				FAAC98F02A9F76A0009A6A84 /* CookcademyUITestsLaunchTests.swift */,
+			);
+			path = CookcademyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAAC98CF2A9F769E009A6A84 /* Cookcademy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAC98F42A9F76A0009A6A84 /* Build configuration list for PBXNativeTarget "Cookcademy" */;
+			buildPhases = (
+				FAAC98CC2A9F769E009A6A84 /* Sources */,
+				FAAC98CD2A9F769E009A6A84 /* Frameworks */,
+				FAAC98CE2A9F769E009A6A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cookcademy;
+			productName = Cookcademy;
+			productReference = FAAC98D02A9F769E009A6A84 /* Cookcademy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAAC98DF2A9F76A0009A6A84 /* CookcademyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAC98F72A9F76A0009A6A84 /* Build configuration list for PBXNativeTarget "CookcademyTests" */;
+			buildPhases = (
+				FAAC98DC2A9F76A0009A6A84 /* Sources */,
+				FAAC98DD2A9F76A0009A6A84 /* Frameworks */,
+				FAAC98DE2A9F76A0009A6A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAC98E22A9F76A0009A6A84 /* PBXTargetDependency */,
+			);
+			name = CookcademyTests;
+			productName = CookcademyTests;
+			productReference = FAAC98E02A9F76A0009A6A84 /* CookcademyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAAC98E92A9F76A0009A6A84 /* CookcademyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAAC98FA2A9F76A0009A6A84 /* Build configuration list for PBXNativeTarget "CookcademyUITests" */;
+			buildPhases = (
+				FAAC98E62A9F76A0009A6A84 /* Sources */,
+				FAAC98E72A9F76A0009A6A84 /* Frameworks */,
+				FAAC98E82A9F76A0009A6A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAAC98EC2A9F76A0009A6A84 /* PBXTargetDependency */,
+			);
+			name = CookcademyUITests;
+			productName = CookcademyUITests;
+			productReference = FAAC98EA2A9F76A0009A6A84 /* CookcademyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAAC98C82A9F769E009A6A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					FAAC98CF2A9F769E009A6A84 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					FAAC98DF2A9F76A0009A6A84 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FAAC98CF2A9F769E009A6A84;
+					};
+					FAAC98E92A9F76A0009A6A84 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FAAC98CF2A9F769E009A6A84;
+					};
+				};
+			};
+			buildConfigurationList = FAAC98CB2A9F769E009A6A84 /* Build configuration list for PBXProject "Cookcademy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAAC98C72A9F769E009A6A84;
+			productRefGroup = FAAC98D12A9F769E009A6A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAAC98CF2A9F769E009A6A84 /* Cookcademy */,
+				FAAC98DF2A9F76A0009A6A84 /* CookcademyTests */,
+				FAAC98E92A9F76A0009A6A84 /* CookcademyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAAC98CE2A9F769E009A6A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC98DB2A9F76A0009A6A84 /* Preview Assets.xcassets in Resources */,
+				FAAC98D82A9F76A0009A6A84 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAC98DE2A9F76A0009A6A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAC98E82A9F76A0009A6A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAAC98CC2A9F769E009A6A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC98D62A9F769E009A6A84 /* ContentView.swift in Sources */,
+				FAAC98D42A9F769E009A6A84 /* CookcademyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAC98DC2A9F76A0009A6A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC98E52A9F76A0009A6A84 /* CookcademyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAAC98E62A9F76A0009A6A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAC98EF2A9F76A0009A6A84 /* CookcademyUITests.swift in Sources */,
+				FAAC98F12A9F76A0009A6A84 /* CookcademyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAAC98E22A9F76A0009A6A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAC98CF2A9F769E009A6A84 /* Cookcademy */;
+			targetProxy = FAAC98E12A9F76A0009A6A84 /* PBXContainerItemProxy */;
+		};
+		FAAC98EC2A9F76A0009A6A84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAAC98CF2A9F769E009A6A84 /* Cookcademy */;
+			targetProxy = FAAC98EB2A9F76A0009A6A84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAAC98F22A9F76A0009A6A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAAC98F32A9F76A0009A6A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAAC98F52A9F76A0009A6A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cookcademy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Doo.Cookcademy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAAC98F62A9F76A0009A6A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cookcademy/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Doo.Cookcademy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAAC98F82A9F76A0009A6A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Doo.CookcademyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookcademy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cookcademy";
+			};
+			name = Debug;
+		};
+		FAAC98F92A9F76A0009A6A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Doo.CookcademyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cookcademy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cookcademy";
+			};
+			name = Release;
+		};
+		FAAC98FB2A9F76A0009A6A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Doo.CookcademyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cookcademy;
+			};
+			name = Debug;
+		};
+		FAAC98FC2A9F76A0009A6A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Doo.CookcademyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cookcademy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAAC98CB2A9F769E009A6A84 /* Build configuration list for PBXProject "Cookcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC98F22A9F76A0009A6A84 /* Debug */,
+				FAAC98F32A9F76A0009A6A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAC98F42A9F76A0009A6A84 /* Build configuration list for PBXNativeTarget "Cookcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC98F52A9F76A0009A6A84 /* Debug */,
+				FAAC98F62A9F76A0009A6A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAC98F72A9F76A0009A6A84 /* Build configuration list for PBXNativeTarget "CookcademyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC98F82A9F76A0009A6A84 /* Debug */,
+				FAAC98F92A9F76A0009A6A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAAC98FA2A9F76A0009A6A84 /* Build configuration list for PBXNativeTarget "CookcademyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAAC98FB2A9F76A0009A6A84 /* Debug */,
+				FAAC98FC2A9F76A0009A6A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAAC98C82A9F769E009A6A84 /* Project object */;
+}
